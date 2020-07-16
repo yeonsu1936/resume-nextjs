@@ -1,14 +1,18 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Backend',
   items: [
     {
-      title: 'Node.js',
+      title: 'Python',
       level: 3,
     },
     {
-      title: 'AWS',
+      title: 'C',
+      level: 3,
+    },
+    {
+      title: 'MATLAB',
       level: 3,
     },
     {
@@ -16,15 +20,11 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'R',
+      level: 1,
+    },
+    {
       title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
       level: 1,
     },
   ],
@@ -35,18 +35,10 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Oracle',
-      level: 2,
-    },
-    {
-      title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'MongoDB',
       level: 1,
     },
   ],
@@ -55,14 +47,6 @@ const database: ISkill.Skill = {
 const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
-    {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
     {
       title: 'javascript',
       level: 2,
@@ -78,22 +62,22 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
-    },
-    {
-      title: 'Vim',
-    },
-    {
       title: 'Security',
     },
     {
-      title: 'VS Code',
+      title: 'Block Chain',
     },
     {
-      title: 'Jira',
+      title: 'Ubuntu',
     },
     {
-      title: 'Confluence',
+      title: 'Kali Linux',
+    },
+    {
+      title: 'Raspberry Pi',
+    },
+    {
+      title: 'Arduino',
     },
   ],
 };
