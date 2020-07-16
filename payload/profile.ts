@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '성연수',
-    small: '(Sung Yeon Su)',
+    title: 'Lorem ipsum',
+    small: '(LI)',
   },
   contact: [
     {
-      title: 'yeonsu1936@gamil.com',
+      title: 'foo@bar.xyz',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,23 +25,23 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com/yeonsu1936',
-      link: 'https://github.com/yeonsu1936',
+      title: 'https://github.com',
+      link: 'https://github.com/uyu423/resume-nextjs',
       icon: faGithub,
     },
     {
-      title: 'https://www.facebook.com/yeonsu1936',
-      link: 'https://www.facebook.com/profile.php?id=100014585354638',
+      link: 'https://www.facebook.com/iu.loen',
       icon: faFacebook,
     },
     {
-      title: 'https://blog.naver.com/yeonsu1936',
-      link: 'https://blog.naver.com/yeonsu1936',
-      icon: faFacebook,
+      title: 'YouTube',
+      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+      // icon: faRss,
+      icon: faYoutube,
     },
   ],
   notice: {
-    title: "이메일로 연락 주시면 빠르게 답변드립니다.",
+    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
     icon: faBell,
   },
 };
